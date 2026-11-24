@@ -39,7 +39,7 @@ function Footer() {
             <a href="#services">Baby Shower</a>
             <a href="#services">Puberty Function</a>
             <a href="#services">House Warming Ceremony</a>
-            <a href="#services">Other Event</a>
+            <a href="#services">All Other Events</a>
           </div>
           <div>
             <h3>Contact us</h3>

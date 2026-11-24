@@ -28,7 +28,7 @@ const services = [
     houseWarmingImage,
   ],
   [
-    "Other Event",
+    "All other events",
     "Flavourful catering for every occasion.",
     otherEventsImage,
   ],

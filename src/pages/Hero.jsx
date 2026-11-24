@@ -24,7 +24,7 @@ function Hero() {
             Get a quote <span>→</span>
           </a>
           <a className="button button-outline" href="#services">
-            Explore menus
+            Explore services
           </a>
         </div>
       </div>

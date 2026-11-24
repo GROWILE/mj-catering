@@ -86,6 +86,35 @@
   height: 34px;
   fill: #fff;
 }
+.instagram-float {
+  position: fixed;
+  right: 28px;
+  bottom: 100px;
+  z-index: 110;
+  display: grid;
+  width: 60px;
+  height: 60px;
+  place-items: center;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #feda75, #fa7e1e 35%, #d62976 65%, #4f5bd5);
+  box-shadow: 0 8px 22px rgb(0 0 0 / 25%);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.instagram-float:hover {
+  box-shadow: 0 10px 28px rgb(0 0 0 / 35%);
+  transform: scale(1.08);
+}
+.instagram-float svg {
+  width: 34px;
+  height: 34px;
+  fill: none;
+  stroke: #fff;
+  stroke-width: 1.8;
+}
+.instagram-float .instagram-dot {
+  fill: #fff;
+  stroke: none;
+}
 
 @media (max-width: 900px) {
   .site-header {
@@ -121,6 +150,16 @@
     height: 54px;
   }
   .whatsapp-float svg {
+    width: 30px;
+    height: 30px;
+  }
+  .instagram-float {
+    right: 18px;
+    bottom: 84px;
+    width: 54px;
+    height: 54px;
+  }
+  .instagram-float svg {
     width: 30px;
     height: 30px;
   }
