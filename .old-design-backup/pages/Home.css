@@ -1,0 +1,9 @@
+.home-page {
+  padding-top: 86px;
+}
+
+@media (max-width: 900px) {
+  .home-page {
+    padding-top: 74px;
+  }
+}
